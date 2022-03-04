@@ -1,0 +1,9 @@
+let playerSquare = document.querySelector('.player');
+let gameWinWidth = document.querySelector('.gameWindow').clientWidth;
+let gameWinHeigth = document.querySelector('.gameWindow').clientHeight;
+let playerPosX = gameWinWidth / 7;
+let playerPosY = 0;
+let playerSpeed = 15;
+let jumpSpeed = 0;
+let jumpMax = 120;
+let runCheckframe = 0;

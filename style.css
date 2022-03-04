@@ -1,0 +1,53 @@
+body{
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+
+.player{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+
+.player img{
+    position: relative;
+    z-index: 11;
+    width: 100%;
+    height: 100%;
+    /* mix-blend-mode: multiply; */
+}
+
+.gameWindow img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.gameWindow{
+   border: 3px solid black;
+   border-style: double;
+   height: 100vh;
+   width: 100%;
+   margin: auto;
+   position: relative;
+}
+
+.bullet{
+    z-index: 33;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+  
+}
+
+.bulletImg{
+    height: 100%;
+    width: 100%;
+}
+
